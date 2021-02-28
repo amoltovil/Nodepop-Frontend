@@ -1,0 +1,138 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+
+/* Loader */
+/* .lds-default {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  } */
+
+  .lds-default, .global-errors {
+    display: block;
+    position: fixed;  
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow:auto; 
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255, 0.8);
+  }
+  
+/* para centrar el loader */
+ .lds-default {  
+    top: 50%;
+    left: 50%;
+ }
+ .lds-default.hidden, .global-errors.hidden, .global-success.hidden {
+      display: none;
+  }
+
+  .lds-default div {
+    position: absolute; 
+    display:block;
+    width: 6px;
+    height: 6px;
+    background: lightslategrey;     
+    border-radius: 50%;
+    animation: lds-default 1.2s linear infinite;
+  }
+  .lds-default div:nth-child(1) {
+    animation-delay: 0s;
+    top: 37px;
+    left: 66px;
+    /* background: black;   */
+  }
+  .lds-default div:nth-child(2) {
+    animation-delay: -0.1s;
+    top: 22px;
+    left: 62px;
+    /* background: blanchedalmond; */
+  }
+  .lds-default div:nth-child(3) {
+    animation-delay: -0.2s;
+    top: 11px;
+    left: 52px;
+  }
+  .lds-default div:nth-child(4) {
+    animation-delay: -0.3s;
+    top: 7px;
+    left: 37px;
+  }
+  .lds-default div:nth-child(5) {
+    animation-delay: -0.4s;
+    top: 11px;
+    left: 22px;
+  }
+  .lds-default div:nth-child(6) {
+    animation-delay: -0.5s;
+    top: 22px;
+    left: 11px;
+  }
+  .lds-default div:nth-child(7) {
+    animation-delay: -0.6s;
+    top: 37px;
+    left: 7px;
+  }
+  .lds-default div:nth-child(8) {
+    animation-delay: -0.7s;
+    top: 52px;
+    left: 11px;
+  }
+  .lds-default div:nth-child(9) {
+    animation-delay: -0.8s;
+    top: 62px;
+    left: 22px;
+  }
+  .lds-default div:nth-child(10) {
+    animation-delay: -0.9s;
+    top: 66px;
+    left: 37px;
+  }
+  .lds-default div:nth-child(11) {
+    animation-delay: -1s;
+    top: 62px;
+    left: 52px;
+  }
+  .lds-default div:nth-child(12) {
+    animation-delay: -1.1s;
+    top: 52px;
+    left: 62px;
+  }
+  @keyframes lds-default {
+    0%, 20%, 80%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+  }
+  
+  /* Cards */
+  .card {
+    margin: 40px auto;  
+  }
+
+  /* Global errors */
+  .global-errors, .global-success {
+     padding: 20% 10%; 
+  }
+
+  .title.is-2 {
+    padding: 10px;
+    margin:5px;
+  }
+
+  /*nuevo anuncio */
+  /* .new-anuncio {
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+  } */
+
+  .footer {
+    background-color:darkkhaki;
+    height: 5px;
+  }
+
+  

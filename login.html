@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nodepop Frontend</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+
+
+</head>
+<body>
+    
+    <!-- loader -->
+    <div class="lds-default hidden">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    
+    <div class="global-errors hidden"></div>
+    <div class="global-success hidden"></div>
+
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half">
+                <h1 class="title">Login</h1>
+                 <form novalidate> <!-- formulario -->
+                    <div class="field">
+                        <p class="control has-icons-left has-icons-right">
+                            <input name="email" class="input" type="email" placeholder="Email" required > <!-- pattern="[a-zA-Z0-9]+"-->
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <span class="icon is-small is-right">
+                                <i class="fas fa-check"></i>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="field">
+                        <p class="control has-icons-left">
+                            <input name="password" class="input" type="password" placeholder="Password" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-lock"></i>
+                            </span>
+                        </p>
+                    </div>
+                    <!-- <div class="field">
+                        <p class="control has-icons-left">
+                            <input name="password-confirm" class="input" type="password" placeholder="Confirm password" required>
+                            <span class="icon is-small is-left">
+                                <i class="fas fa-lock"></i>
+                            </span>
+                        </p>
+                    </div> -->
+                    <div class="field">
+                        <p class="control">
+                            <button class="button is-success" disabled> <!-- añadimos disabled-->
+                                Login
+                            </button>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type ="module" src="js/login.js"></script>
+</body>
+</html>

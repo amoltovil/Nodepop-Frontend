@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nodepop Frontend</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+
+
+</head>
+<body>
+    
+    <!-- loader -->
+    <div class="lds-default">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" >
+            <img src="./images/favicon-96x96.png" >
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item">
+              Home
+            </a>
+            
+            <div class="navbar-item">
+            <input type="search" placeholder='Buscar...'> </div>
+            
+            <div class="navbar-item">
+              <label>Filtro por tags: </label>
+            <div class="select is-multiple multiple is-small">
+               <select class="filter-tags-anuncio">
+                <option>Select dropdown</option>
+                <option value="animals">animals</option>
+                <option value="fornitures">fornitures</option>
+                <option value="kitchen">kitchen</option>
+                <option value="lifestyle">lifestyle</option>
+                <option value="mobile">mobile</option>
+                <option value="motor">motor</option>
+                <option value="work">work</option>
+              </select>
+            </div>
+          </div>
+            <!-- <a class="navbar-item">
+              Documentation
+            </a> -->
+      
+            <!-- <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  About
+                </a>
+                <a class="navbar-item">
+                  Jobs
+                </a>
+                <a class="navbar-item">
+                  Contact
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Report an issue
+                </a>
+              </div>
+            </div> -->
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <div class="new-anuncio">
+                  <a href="/new-anuncio.html" class="button is-primary is-hidden new-anuncio-button">Nuevo anuncio</a>
+            
+                    <span class ="is-hidden login-register-buttons">
+                      <a href="/login.html" class="button is-primary">Login</a>
+                      <a href="/register.html" class="button is-primary">Registro</a>
+                   </span>
+                    <span class="logout">
+                      <a class="button is-primary logout-button is-hidden">Log out</a>
+                    </span>
+                </div>
+              </div>
+            </div>
+          </div>
+      </nav>
+
+    <div class ="title is-2">Lista de Anuncios Nodepop</div>
+    <div class="global-errors hidden"></div>
+    <div class="global-success hidden"></div>
+
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half">
+                <main class='anuncios-list'></main>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="new-anuncio">
+      <a href="/new-anuncio.html" class="button is-primary is-hidden new-anuncio-button">Nuevo anuncio</a>
+
+      <span class ="is-hidden login-register-buttons">
+        <a href="/login.html" class="button is-primary">Login</a> or 
+        <a href="/register.html" class="button is-primary">Registro</a>
+      </span> 
+    </div> -->
+    <nav class="pagination" role="navigation" aria-label="pagination">
+      <a class="pagination-previous">Previous</a>
+      <a class="pagination-next">Next page</a>
+      <!-- <ul class="pagination-list">
+        <li>
+          <a class="pagination-link" aria-label="Goto page 1">1</a>
+        </li>
+        <li>
+          <span class="pagination-ellipsis">&hellip;</span>
+        </li> 
+      </ul> -->
+    </nav>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Nodepop Frontend</strong> by Alicia Moltó</a>
+        </p>
+      </div>
+    </footer>
+
+    <script type ="module" src="js/index.js"></script>
+</body>
+</html>

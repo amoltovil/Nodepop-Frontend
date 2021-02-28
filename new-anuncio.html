@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nuevo Anuncio</title>
+</head>
+<body>
+     <!-- loader -->
+     <div class="lds-default">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" >
+          <img src="./images/favicon-96x96.png" >
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="index.html" class="navbar-item">
+            Anuncios
+          </a>
+        </div>
+    
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <div class="new-anuncio">
+                <a href="/new-anuncio.html" class="button is-primary is-hidden new-anuncio-button">Nuevo anuncio</a>
+          
+                  <span class ="is-hidden login-register-buttons">
+                    <a href="/login.html" class="button is-primary">Login</a>
+                    <a href="/register.html" class="button is-primary">Registro</a>
+                 </span>
+                  <span class="logout">
+                    <a class="button is-primary logout-button is-hidden">Log out</a>
+                  </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    </nav>
+    
+    <div class="global-errors hidden"></div>
+    <div class="global-success hidden"></div>
+
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half">
+              
+               <h1 class="title is-primary is-3">Nuevo Anuncio</h1>
+               <form novalidate action="">
+                   <!-- Nombre -->
+                  <input name ="nameanuncio" class="input is-info advname is-small block" type="text" placeholder="Escriba el nombre de su anuncio" required> <!-- pattern ="^[\s\d\w]+$/g"  -->
+                  <!-- Descripcion -->
+                   <textarea name="descanuncio" id="" class="textarea is-small block" placeholder='Escriba la descripción del anuncio aqui...'></textarea>
+                   <!-- precio con validación de precio correcta-->
+                   <input name="priceanuncio" class="input is-info is-small block" type="tel" pattern ="^\d*(\.\d{1})?\d{0,1}$" placeholder="Precio Anuncio" required>
+                   
+
+                   <p class ="title is-5 block">
+                    <label for="tipoanuncio">Seleccione el tipo de anuncio a publicar:</label>
+
+                    <div class="select is-small block">
+                    <select name ="isventacompra" id="tipoanuncio">
+                      <option value="">--Por favor, seleccione una opción--</option>
+                      <option value="Venta">Venta</option>
+                      <option value="Compra">Compra</option>
+                    </select>
+                  </div></p>
+
+                   <p class ="title is-5 block">
+                     <label>Seleccione uno o más tags para categorizar su anuncio:</label>
+                   <div class="select is-multiple is-small block">
+                    <select id="tagsanuncio" name ="tagsanuncio" multiple size="8" class="tagsanuncio">
+                      <option value="animals">animals</option>
+                      <option value="fornitures">fornitures</option>
+                      <option value="kitchen">kitchen</option>
+                      <option value="lifestyle">lifestyle</option>
+                      <option value="mobile">mobile</option>
+                      <option value="motor">motor</option>
+                      <option value="work">work</option>
+                    </select>    
+                  </div>
+                  </p>
+
+                   <p class ="title is-5">Puede incluir nuevo/s tag/s para categorizar su anuncio (opcional):</p>
+                   <input name ="nuevostags" type="text" class="input is-info is-small block" pattern="[a-zA-Z,;]+" placeholder='Escriba otro/s tag/s para categorizar su anuncio (separado por , o ;)...'>
+          
+                   <input type="file" name="file" accept="image/*" class="block"> 
+                   <button class="button is-primary is-pulled-right" disabled>Publicar</button>
+               </form>
+             
+            </div>
+        </div>
+    </div>
+  
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Nodepop Frontend</strong> by Alicia Moltó</a>
+        </p>
+      </div>
+    </footer>
+
+    <script type ="module" src="js/new-anuncio.js"></script>
+</body>
+</html>

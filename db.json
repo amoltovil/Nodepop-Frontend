@@ -1,0 +1,551 @@
+{
+  "anuncios": [
+    {
+      "nombre": "Bicicleta",
+      "desc": null,
+      "venta": true,
+      "precio": 230.15,
+      "foto": "http://127.0.0.1:8000/bicicleta.jpg",
+      "tags": [
+        "lifestyle",
+        "motor"
+      ],
+      "userId": 1,
+      "createdAt": "2021-02-01T19:25:36.038Z",
+      "id": 1
+    },
+    {
+      "nombre": "iPhone 3GS",
+      "desc": null,
+      "venta": false,
+      "precio": 50,
+      "foto": "http://127.0.0.1:8000/movil.jpg",
+      "tags": [
+        "lifestyle",
+        "mobile"
+      ],
+      "userId": 2,
+      "createdAt": "2021-02-01T19:25:36.038Z",
+      "id": 2
+    },
+    {
+      "nombre": "Agendas",
+      "desc": null,
+      "venta": true,
+      "precio": 25,
+      "foto": "http://127.0.0.1:8000/agenda.jpg",
+      "tags": [
+        "work",
+        "lifestyle"
+      ],
+      "userId": 3,
+      "createdAt": "2021-02-01T19:25:36.038Z",
+      "id": 3
+    },
+    {
+      "nombre": "Applewatch",
+      "desc": null,
+      "venta": true,
+      "precio": 250,
+      "foto": "http://127.0.0.1:8000/applewatch.jpg",
+      "tags": [
+        "lifestyle",
+        "mobile"
+      ],
+      "userId": 4,
+      "createdAt": "2021-02-25T13:25:36.038Z",
+      "id": 4
+    },
+    {
+      "nombre": "Bicicleta niña",
+      "desc": null,
+      "venta": true,
+      "precio": 50,
+      "foto": "http://127.0.0.1:8000/bici-peque.jpg",
+      "tags": [
+        "motor",
+        "lifestyle"
+      ],
+      "userId": 5,
+      "createdAt": "2020-12-12T18:50:36.038Z",
+      "id": 5
+    },
+    {
+      "nombre": "Bowl",
+      "desc": null,
+      "venta": true,
+      "precio": 6.99,
+      "foto": "http://127.0.0.1:8000/bowl.jpg",
+      "tags": [
+        "lifestyle",
+        "kitchen"
+      ],
+      "userId": 6,
+      "createdAt": "2020-11-12T10:50:36.038Z",
+      "id": 6
+    },
+    {
+      "nombre": "Cachorros Labrador",
+      "desc": null,
+      "venta": false,
+      "precio": 250,
+      "foto": "http://127.0.0.1:8000/cachorros.jpg",
+      "tags": [
+        "lifestyle"
+      ],
+      "userId": 7,
+      "createdAt": "2021-01-05T23:50:36.038Z",
+      "id": 7
+    },
+    {
+      "nombre": "Cafetera",
+      "desc": null,
+      "venta": true,
+      "precio": 15.99,
+      "foto": "http://127.0.0.1:8000/cafetera.jpg",
+      "tags": [
+        "lifestyle",
+        "kitchen"
+      ],
+      "userId": 2,
+      "createdAt": "2021-01-07T10:50:36.038Z",
+      "id": 8
+    },
+    {
+      "nombre": "Casa",
+      "desc": null,
+      "venta": false,
+      "precio": 100,
+      "foto": "http://127.0.0.1:8000/casa.jpg",
+      "tags": [
+        "lifestyle"
+      ],
+      "userId": 8,
+      "createdAt": "2021-01-03T23:50:36.038Z",
+      "id": 9
+    },
+    {
+      "nombre": "Olla de cocina",
+      "desc": null,
+      "venta": true,
+      "precio": 24.99,
+      "foto": "http://127.0.0.1:8000/cazuela.jpg",
+      "tags": [
+        "lifestyle",
+        "kitchen"
+      ],
+      "userId": 4,
+      "createdAt": "2021-02-25T23:50:36.038Z",
+      "id": 10
+    },
+    {
+      "nombre": "Coche Renault antiguo",
+      "desc": null,
+      "venta": true,
+      "precio": 5000,
+      "foto": "http://127.0.0.1:8000/coche_renault.jpg",
+      "tags": [
+        "motor",
+        "lifestyle"
+      ],
+      "userId": 7,
+      "createdAt": "2021-01-30T20:50:36.038Z",
+      "id": 11
+    },
+    {
+      "nombre": "Coche Mercedes",
+      "desc": null,
+      "venta": true,
+      "precio": 300000,
+      "foto": "http://127.0.0.1:8000/cochelujo.jpg",
+      "tags": [
+        "lifestyle",
+        "work",
+        "motor"
+      ],
+      "userId": 8,
+      "createdAt": "2021-01-22T07:50:36.038Z",
+      "id": 12
+    },
+    {
+      "nombre": "Espejo Vintage",
+      "desc": null,
+      "venta": true,
+      "precio": 39.99,
+      "foto": "http://127.0.0.1:8000/espejo.jpg",
+      "tags": [
+        "lifestyle",
+        "fornitures"
+      ],
+      "userId": 5,
+      "createdAt": "2021-02-20T22:50:36.038Z",
+      "id": 13
+    },
+    {
+      "nombre": "Figura decorativa",
+      "desc": null,
+      "venta": true,
+      "precio": 12.99,
+      "foto": "http://127.0.0.1:8000/figura_decoracion.jpg",
+      "tags": [
+        "lifestyle"
+      ],
+      "userId": 2,
+      "createdAt": "2021-01-19T15:50:36.038Z",
+      "id": 14
+    },
+    {
+      "nombre": "Gato",
+      "desc": null,
+      "venta": false,
+      "precio": 100,
+      "foto": "http://127.0.0.1:8000/gato.jpg",
+      "tags": [
+        "lifestyle",
+        "animals"
+      ],
+      "userId": 6,
+      "createdAt": "2021-01-05T21:50:36.038Z",
+      "id": 15
+    },
+    {
+      "nombre": "Robot de limpieza suelos",
+      "desc": null,
+      "venta": true,
+      "precio": 500,
+      "foto": "http://127.0.0.1:8000/irobot.jpg",
+      "tags": [
+        "lifestyle",
+        "work"
+      ],
+      "userId": 4,
+      "createdAt": "2021-02-17T19:50:36.038Z",
+      "id": 16
+    },
+    {
+      "nombre": "Jersey",
+      "desc": null,
+      "venta": true,
+      "precio": 10,
+      "foto": "http://127.0.0.1:8000/jersey.jpg",
+      "tags": [
+        "lifestyle"
+      ],
+      "userId": 5,
+      "createdAt": "2021-02-15T12:50:36.038Z",
+      "id": 17
+    },
+    {
+      "nombre": "Loro",
+      "desc": null,
+      "venta": false,
+      "precio": 30,
+      "foto": "http://127.0.0.1:8000/loro.jpg",
+      "tags": [
+        "lifestyle",
+        "animals"
+      ],
+      "userId": 1,
+      "createdAt": "2021-01-05T23:50:36.038Z",
+      "id": 18
+    },
+    {
+      "nombre": "Moto",
+      "desc": null,
+      "venta": true,
+      "precio": 1500,
+      "foto": "http://127.0.0.1:8000/moto.jpg",
+      "tags": [
+        "motor",
+        "lifestyle"
+      ],
+      "userId": 4,
+      "createdAt": "2021-02-25T23:50:36.038Z",
+      "id": 19
+    },
+    {
+      "nombre": "Ordenador",
+      "desc": null,
+      "venta": true,
+      "precio": 349.99,
+      "foto": "http://127.0.0.1:8000/ordenador.jpg",
+      "tags": [
+        "lifestyle",
+        "work"
+      ],
+      "userId": 2,
+      "createdAt": "2021-02-24T23:50:36.038Z",
+      "id": 20
+    },
+    {
+      "nombre": "Planta",
+      "desc": null,
+      "venta": true,
+      "precio": 5.5,
+      "foto": "http://127.0.0.1:8000/planta.jpg",
+      "tags": [
+        "lifestyle"
+      ],
+      "userId": 6,
+      "createdAt": "2021-01-08T21:50:36.038Z",
+      "id": 21
+    },
+    {
+      "nombre": "Plantas",
+      "desc": null,
+      "venta": true,
+      "precio": 6.99,
+      "foto": "http://127.0.0.1:8000/plantas.jpg",
+      "tags": [
+        "lifestyle"
+      ],
+      "userId": 5,
+      "createdAt": "2021-01-06T20:58:36.038Z",
+      "id": 22
+    },
+    {
+      "nombre": "Reloj Despertador",
+      "desc": null,
+      "venta": true,
+      "precio": 15.99,
+      "foto": "http://127.0.0.1:8000/reloj_despertador.jpg",
+      "tags": [
+        "lifestyle"
+      ],
+      "userId": 1,
+      "createdAt": "2021-01-05T23:50:36.038Z",
+      "id": 23
+    },
+    {
+      "nombre": "Reloj Mujer",
+      "desc": null,
+      "venta": true,
+      "precio": 29.99,
+      "foto": "http://127.0.0.1:8000/reloj_mujer.jpg",
+      "tags": [
+        "lifestyle"
+      ],
+      "userId": 2,
+      "createdAt": "2021-02-16T19:20:36.038Z",
+      "id": 24
+    },
+    {
+      "nombre": "Silla Vintage",
+      "desc": null,
+      "venta": true,
+      "precio": 5.99,
+      "foto": "http://127.0.0.1:8000/silla_vieja.jpg",
+      "tags": [
+        "lifestyle",
+        "fornitures"
+      ],
+      "userId": 1,
+      "createdAt": "2021-02-26T19:20:36.038Z",
+      "id": 25
+    },
+    {
+      "nombre": "Sofa",
+      "desc": null,
+      "venta": true,
+      "precio": 500,
+      "foto": "http://127.0.0.1:8000/sofa.jpg",
+      "tags": [
+        "lifestyle",
+        "fornitures"
+      ],
+      "userId": 2,
+      "createdAt": "2021-02-26T19:20:36.038Z",
+      "id": 26
+    },
+    {
+      "nombre": "Tablet Android",
+      "desc": null,
+      "venta": true,
+      "precio": 250,
+      "foto": "http://127.0.0.1:8000/tablet.jpg",
+      "tags": [
+        "mobile",
+        "lifestyle",
+        "work"
+      ],
+      "userId": 4,
+      "createdAt": "2021-02-19T19:20:36.038Z",
+      "id": 27
+    },
+    {
+      "nombre": "Taburete",
+      "desc": null,
+      "venta": true,
+      "precio": 49.99,
+      "foto": "http://127.0.0.1:8000/taburete.jpg",
+      "tags": [
+        "lifestyle",
+        "work",
+        "fornitures"
+      ],
+      "userId": 3,
+      "createdAt": "2021-02-16T19:20:36.038Z",
+      "id": 28
+    },
+    {
+      "nombre": "Juego de tazas",
+      "desc": null,
+      "venta": true,
+      "precio": 30,
+      "foto": "http://127.0.0.1:8000/taza.jpg",
+      "tags": [
+        "kitchen",
+        "lifestyle"
+      ],
+      "userId": 2,
+      "createdAt": "2021-02-26T19:20:36.038Z",
+      "id": 29
+    },
+    {
+      "nombre": "Trastero de alquiler",
+      "desc": null,
+      "venta": false,
+      "precio": 60,
+      "foto": "http://127.0.0.1:8000/trastero.jpg",
+      "tags": [
+        "lifestyle",
+        "work"
+      ],
+      "userId": 1,
+      "createdAt": "2021-02-16T19:20:36.038Z",
+      "id": 30
+    },
+    {
+      "nombre": "Utensilios de madera",
+      "desc": null,
+      "venta": true,
+      "precio": 20,
+      "foto": "http://127.0.0.1:8000/utensilios_madera.jpg",
+      "tags": [
+        "kitchen",
+        "lifestyle"
+      ],
+      "userId": 6,
+      "createdAt": "2021-02-16T19:20:36.038Z",
+      "id": 31
+    },
+    {
+      "nombre": "Zapatillas",
+      "desc": null,
+      "venta": true,
+      "precio": 30,
+      "foto": "http://127.0.0.1:8000/zapatillas.jpg",
+      "tags": [
+        "lifestyle"
+      ],
+      "userId": 7,
+      "createdAt": "2021-02-16T19:20:36.038Z",
+      "id": 32
+    },
+    {
+      "nombre": "Limpiadora",
+      "desc": null,
+      "venta": false,
+      "precio": 10,
+      "foto": "http://127.0.0.1:8000/limpieza.jpg",
+      "tags": [
+        "work",
+        "lifestyle"
+      ],
+      "userId": 2,
+      "createdAt": "2021-02-16T19:20:36.038Z",
+      "id": 33
+    },
+    {
+      "nombre": "Cuidador de personas mayores",
+      "desc": null,
+      "venta": false,
+      "precio": 15.99,
+      "foto": "http://127.0.0.1:8000/cuidador.jpg",
+      "tags": [
+        "lifestyle",
+        "work"
+      ],
+      "userId": 4,
+      "createdAt": "2021-02-16T19:20:36.038Z",
+      "id": 34
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "luke@starwars.com",
+      "password": "$2b$10$KxqTnqj.uqyuXCNzKnJBse2TK/5GyaZLluzR6AZETLcHN6D/uAarm"
+    },
+    {
+      "username": "amoltovil@gmail.com",
+      "password": "$2b$10$3ONOWNzrWr/cG4Yq3mzEo.IafcqBsP7jkN8eOfGy.SwP4qtgRa10G",
+      "id": 2
+    },
+    {
+      "username": "pablo@orange.com",
+      "password": "$2b$10$3ONOWNzrWr/cG4Yq3mzEo.z9dl8vS6OElFcUg6yXwfDsY5hcrzT0y",
+      "id": 3
+    },
+    {
+      "username": "jorge@yahoo.es",
+      "password": "$2b$10$3ONOWNzrWr/cG4Yq3mzEo.cH2hQpiIE3ujWh3FJSRH5WzRnQ8q9tC",
+      "id": 4
+    },
+    {
+      "username": "ana.gil@gmail.com",
+      "password": "$2b$10$3ONOWNzrWr/cG4Yq3mzEo.iTwkBNtr9M1R3nNddt/NQ0Vy3irRVw.",
+      "id": 5
+    },
+    {
+      "username": "vicen@hotmail.com",
+      "password": "$2b$10$3ONOWNzrWr/cG4Yq3mzEo.Xty5LmFCRqYfeIGnVcXWWvKOtrbk49K",
+      "id": 6
+    },
+    {
+      "username": "cristina.romero@telefonica.net",
+      "password": "$2b$10$3ONOWNzrWr/cG4Yq3mzEo.UIiH587/HHVqJRbYE1ivuDByyCZiemi",
+      "id": 7
+    },
+    {
+      "username": "alberto@kasfactory.net",
+      "password": "$2b$10$3ONOWNzrWr/cG4Yq3mzEo.oL3j1ZxJNWRnOkyosgkpH3J2SgaqGlu",
+      "id": 8
+    },
+    {
+      "username": "leia@starwars.com",
+      "password": "$2b$10$G9RbGyACEhdmAw.QBioBo.rKRxz6qTTudTxmFf.c5YyVE2o3fonRK",
+      "id": 9
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "tag": "animals"
+    },
+    {
+      "id": 2,
+      "tag": "fornitures"
+    },
+    {
+      "id": 3,
+      "tag": "kitchen"
+    },
+    {
+      "id": 4,
+      "tag": "lifestyle"
+    },
+    {
+      "id": 5,
+      "tag": "mobile"
+    },
+    {
+      "id": 6,
+      "tag": "motor"
+    },
+    {
+      "id": 7,
+      "tag": "work"
+    }
+  ]
+}
